@@ -286,3 +286,35 @@ Driver info: driver.version: unknown
 2021-09-09 00:45:06 INFO  - Upload Profile Photo  --Pass
 2021-09-09 00:45:10 INFO  - Click on Submit  --Pass
 2021-09-09 00:49:08 INFO  - Failed :Verify Home tab  --Fail
+2021-09-10 21:59:50 INFO  - Smoke
+2021-09-10 21:59:50 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-10 21:59:50 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-10 21:59:59 INFO  - Testcase started: test_29507
+2021-09-10 21:59:59 INFO  - Testcase started: test_16619
+2021-09-10 22:00:01 INFO  - Enter Email  --Pass
+2021-09-10 22:00:06 INFO  - Click on Sign on button  --Pass
+2021-09-10 22:00:06 INFO  - Enter Email  --Pass
+2021-09-10 22:00:06 INFO  - Enter Password  --Pass
+2021-09-10 22:00:09 INFO  - Click on enter icon  --Pass
+2021-09-10 22:00:09 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-10 22:00:10 INFO  - Click on enter  --Pass
+2021-09-10 22:00:10 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-10 22:00:10 INFO  - Verify Home tab --Pass
+2021-09-10 22:00:10 INFO  - Enter FirstName  --Pass
+2021-09-10 22:00:10 INFO  - Enter LastName  --Pass
+2021-09-10 22:00:10 INFO  - Enter Adress  --Pass
+2021-09-10 22:00:11 INFO  - Enter EmailAdress  --Pass
+2021-09-10 22:00:11 INFO  - Enter Phone  --Pass
+2021-09-10 22:00:14 INFO  - Click on Male  --Pass
+2021-09-10 22:00:18 INFO  - Click on Cricket  --Pass
+2021-09-10 22:00:22 INFO  - Click on Hockey  --Pass
+2021-09-10 22:00:22 INFO  - Select skills  --Pass
+2021-09-10 22:00:22 INFO  - Select Country  --Pass
+2021-09-10 22:00:22 INFO  - Select year  --Pass
+2021-09-10 22:00:22 INFO  - Select month  --Pass
+2021-09-10 22:00:23 INFO  - Select day  --Pass
+2021-09-10 22:00:23 INFO  - Enter Password  --Pass
+2021-09-10 22:00:23 INFO  - Enter Confirm Password  --Pass
+2021-09-10 22:00:23 INFO  - Upload Profile Photo  --Pass
+2021-09-10 22:00:27 INFO  - Click on Submit  --Pass
+2021-09-10 22:04:22 INFO  - Failed :Verify Home tab  --Fail

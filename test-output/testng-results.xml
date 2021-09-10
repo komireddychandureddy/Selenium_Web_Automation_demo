@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Suite" duration-ms="267919" started-at="2021-09-09T00:44:41 IST" finished-at="2021-09-09T00:49:08 IST">
+  <suite name="Smoke Suite" duration-ms="273054" started-at="2021-09-10T21:59:50 IST" finished-at="2021-09-10T22:04:23 IST">
     <groups>
     </groups>
-    <test name="Smoke" duration-ms="267919" started-at="2021-09-09T00:44:41 IST" finished-at="2021-09-09T00:49:08 IST">
+    <test name="Smoke" duration-ms="273054" started-at="2021-09-10T21:59:50 IST" finished-at="2021-09-10T22:04:23 IST">
       <class name="com.smoke.tests.VerifyLogin">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="beforeMethod" is-config="true" duration-ms="2207" started-at="2021-09-09T00:44:41 IST" finished-at="2021-09-09T00:44:43 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="beforeMethod" is-config="true" duration-ms="8008" started-at="2021-09-10T21:59:50 IST" finished-at="2021-09-10T21:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_29507(java.util.HashMap,java.lang.reflect.Method)[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="test_29507" duration-ms="264385" started-at="2021-09-09T00:44:43 IST" description="Verify the Sign up with Student" data-provider="getExcelTestData" finished-at="2021-09-09T00:49:08 IST">
+        <test-method status="PASS" signature="test_29507(java.util.HashMap,java.lang.reflect.Method)[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="test_29507" duration-ms="263725" started-at="2021-09-10T21:59:59 IST" description="Verify the Sign up with Student" data-provider="getExcelTestData" finished-at="2021-09-10T22:04:22 IST">
           <params>
             <param index="0">
               <value>
@@ -27,17 +27,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_29507 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="afterMethod" is-config="true" duration-ms="594" started-at="2021-09-09T00:49:08 IST" finished-at="2021-09-09T00:49:08 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.smoke.tests.VerifyLogin@1184ab05]" name="afterMethod" is-config="true" duration-ms="587" started-at="2021-09-10T22:04:22 IST" finished-at="2021-09-10T22:04:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.smoke.tests.VerifyLogin -->
       <class name="com.smoke.tests.VerifySignup">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="beforeMethod" is-config="true" duration-ms="2207" started-at="2021-09-09T00:44:41 IST" finished-at="2021-09-09T00:44:43 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="beforeMethod" is-config="true" duration-ms="8008" started-at="2021-09-10T21:59:50 IST" finished-at="2021-09-10T21:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test_16619(java.util.HashMap,java.lang.reflect.Method)[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="test_16619" duration-ms="26735" started-at="2021-09-09T00:44:43 IST" description="Verify the Sign up" data-provider="getExcelTestData" finished-at="2021-09-09T00:45:10 IST">
+        <test-method status="PASS" signature="test_16619(java.util.HashMap,java.lang.reflect.Method)[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="test_16619" duration-ms="28341" started-at="2021-09-10T21:59:59 IST" description="Verify the Sign up" data-provider="getExcelTestData" finished-at="2021-09-10T22:00:27 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_16619 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="afterMethod" is-config="true" duration-ms="571" started-at="2021-09-09T00:45:10 IST" finished-at="2021-09-09T00:45:11 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.smoke.tests.VerifySignup@e056f20]" name="afterMethod" is-config="true" duration-ms="571" started-at="2021-09-10T22:00:27 IST" finished-at="2021-09-10T22:00:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
