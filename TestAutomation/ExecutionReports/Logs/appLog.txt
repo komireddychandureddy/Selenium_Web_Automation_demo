@@ -1,0 +1,288 @@
+2021-09-09 00:00:13 INFO  - Default test
+2021-09-09 00:00:13 INFO  - Browser: chrome  URL: http://practice.automationtesting.in/
+2021-09-09 00:00:16 INFO  - Testcase started: test_16619
+2021-09-09 00:00:33 INFO  - Failed :no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1821efb9b4ec691da7868672efce625e
+*** Element info: {Using=id, value=email}
+2021-09-09 00:00:34 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909000033_test_16619.jpg
+2021-09-09 00:00:52 INFO  - Default test
+2021-09-09 00:00:52 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:00:54 INFO  - Testcase started: test_16619
+2021-09-09 00:00:56 INFO  - Enter Email  --Pass
+2021-09-09 00:01:03 INFO  - Click on enter icon  --Pass
+2021-09-09 00:01:03 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:01:03 INFO  - Verify Home tab --Pass
+2021-09-09 00:01:04 INFO  - Enter FirstName  --Pass
+2021-09-09 00:01:04 INFO  - Enter LastName  --Pass
+2021-09-09 00:01:14 INFO  - Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@ng-model='Adress']"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c121abc68a430ba2dad59a14c760c4a
+*** Element info: {Using=xpath, value=//input[@ng-model='Adress']}
+2021-09-09 00:01:15 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909000114_test_16619.jpg
+2021-09-09 00:03:08 INFO  - Default test
+2021-09-09 00:03:09 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:03:11 INFO  - Testcase started: test_16619
+2021-09-09 00:03:13 INFO  - Enter Email  --Pass
+2021-09-09 00:03:20 INFO  - Click on enter icon  --Pass
+2021-09-09 00:03:20 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:03:20 INFO  - Verify Home tab --Pass
+2021-09-09 00:03:21 INFO  - Enter FirstName  --Pass
+2021-09-09 00:03:21 INFO  - Enter LastName  --Pass
+2021-09-09 00:03:21 INFO  - Enter Adress  --Pass
+2021-09-09 00:03:21 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:03:22 INFO  - Failed :Keys to send should be a not null CharSequence
+2021-09-09 00:03:22 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909000322_test_16619.jpg
+2021-09-09 00:04:37 INFO  - Default test
+2021-09-09 00:04:37 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:04:39 INFO  - Testcase started: test_16619
+2021-09-09 00:04:41 INFO  - Enter Email  --Pass
+2021-09-09 00:04:49 INFO  - Click on enter icon  --Pass
+2021-09-09 00:04:49 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:04:50 INFO  - Verify Home tab --Pass
+2021-09-09 00:04:50 INFO  - Enter FirstName  --Pass
+2021-09-09 00:04:50 INFO  - Enter LastName  --Pass
+2021-09-09 00:04:50 INFO  - Enter Adress  --Pass
+2021-09-09 00:04:51 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:04:51 INFO  - Enter Phone  --Pass
+2021-09-09 00:04:55 INFO  - Click on Male  --Pass
+2021-09-09 00:05:05 INFO  - Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='C']"}
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5490f693fd8fa12903459d470e69da7e
+*** Element info: {Using=xpath, value=//input[@value='C']}
+2021-09-09 00:05:05 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909000505_test_16619.jpg
+2021-09-09 00:07:12 INFO  - Default test
+2021-09-09 00:07:12 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:07:14 INFO  - Testcase started: test_16619
+2021-09-09 00:07:16 INFO  - Enter Email  --Pass
+2021-09-09 00:07:23 INFO  - Click on enter icon  --Pass
+2021-09-09 00:07:23 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:07:24 INFO  - Verify Home tab --Pass
+2021-09-09 00:07:24 INFO  - Enter FirstName  --Pass
+2021-09-09 00:07:24 INFO  - Enter LastName  --Pass
+2021-09-09 00:07:25 INFO  - Enter Adress  --Pass
+2021-09-09 00:07:25 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:07:25 INFO  - Enter Phone  --Pass
+2021-09-09 00:07:29 INFO  - Click on Male  --Pass
+2021-09-09 00:12:54 INFO  - Default test
+2021-09-09 00:12:54 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:12:56 INFO  - Testcase started: test_16619
+2021-09-09 00:12:59 INFO  - Enter Email  --Pass
+2021-09-09 00:13:06 INFO  - Click on enter icon  --Pass
+2021-09-09 00:13:06 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:13:07 INFO  - Verify Home tab --Pass
+2021-09-09 00:13:07 INFO  - Enter FirstName  --Pass
+2021-09-09 00:13:07 INFO  - Enter LastName  --Pass
+2021-09-09 00:13:07 INFO  - Enter Adress  --Pass
+2021-09-09 00:13:07 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:13:08 INFO  - Enter Phone  --Pass
+2021-09-09 00:13:11 INFO  - Click on Male  --Pass
+2021-09-09 00:13:15 INFO  - Click on Cricket  --Pass
+2021-09-09 00:13:19 INFO  - Click on Hockey  --Pass
+2021-09-09 00:13:29 INFO  - Failed :Cannot locate element with text: Andriod
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+2021-09-09 00:13:29 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909001329_test_16619.jpg
+2021-09-09 00:16:17 INFO  - Default test
+2021-09-09 00:16:17 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:16:19 INFO  - Testcase started: test_16619
+2021-09-09 00:16:21 INFO  - Enter Email  --Pass
+2021-09-09 00:16:28 INFO  - Click on enter icon  --Pass
+2021-09-09 00:16:28 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:16:29 INFO  - Verify Home tab --Pass
+2021-09-09 00:16:29 INFO  - Enter FirstName  --Pass
+2021-09-09 00:16:29 INFO  - Enter LastName  --Pass
+2021-09-09 00:16:30 INFO  - Enter Adress  --Pass
+2021-09-09 00:16:30 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:16:30 INFO  - Enter Phone  --Pass
+2021-09-09 00:16:34 INFO  - Click on Male  --Pass
+2021-09-09 00:16:37 INFO  - Click on Cricket  --Pass
+2021-09-09 00:16:41 INFO  - Click on Hockey  --Pass
+2021-09-09 00:16:52 INFO  - Failed :Cannot locate element with text: Nov
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+2021-09-09 00:16:52 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909001652_test_16619.jpg
+2021-09-09 00:17:59 INFO  - Default test
+2021-09-09 00:17:59 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:18:01 INFO  - Testcase started: test_16619
+2021-09-09 00:18:03 INFO  - Enter Email  --Pass
+2021-09-09 00:18:10 INFO  - Click on enter icon  --Pass
+2021-09-09 00:18:10 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:18:11 INFO  - Verify Home tab --Pass
+2021-09-09 00:18:11 INFO  - Enter FirstName  --Pass
+2021-09-09 00:18:11 INFO  - Enter LastName  --Pass
+2021-09-09 00:18:12 INFO  - Enter Adress  --Pass
+2021-09-09 00:18:12 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:18:12 INFO  - Enter Phone  --Pass
+2021-09-09 00:18:16 INFO  - Click on Male  --Pass
+2021-09-09 00:18:19 INFO  - Click on Cricket  --Pass
+2021-09-09 00:18:23 INFO  - Click on Hockey  --Pass
+2021-09-09 00:18:24 INFO  - Failed :null
+2021-09-09 00:18:24 INFO  - Screenshot image path: D:\github\SeleniumJava\TestAutomation\ExecutionReports\HtmlReport\FailedScreenshots\20210909001824_test_16619.jpg
+2021-09-09 00:23:08 INFO  - Default test
+2021-09-09 00:23:08 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:23:10 INFO  - Testcase started: test_16619
+2021-09-09 00:23:12 INFO  - Enter Email  --Pass
+2021-09-09 00:23:19 INFO  - Click on enter icon  --Pass
+2021-09-09 00:23:19 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:23:19 INFO  - Verify Home tab --Pass
+2021-09-09 00:23:20 INFO  - Enter FirstName  --Pass
+2021-09-09 00:23:20 INFO  - Enter LastName  --Pass
+2021-09-09 00:23:20 INFO  - Enter Adress  --Pass
+2021-09-09 00:23:20 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:23:21 INFO  - Enter Phone  --Pass
+2021-09-09 00:23:24 INFO  - Click on Male  --Pass
+2021-09-09 00:23:28 INFO  - Click on Cricket  --Pass
+2021-09-09 00:23:32 INFO  - Click on Hockey  --Pass
+2021-09-09 00:23:32 INFO  - Select skills  --Pass
+2021-09-09 00:23:32 INFO  - Select Country  --Pass
+2021-09-09 00:23:32 INFO  - Select year  --Pass
+2021-09-09 00:23:32 INFO  - Select month  --Pass
+2021-09-09 00:23:32 INFO  - Select day  --Pass
+2021-09-09 00:23:33 INFO  - Enter Password  --Pass
+2021-09-09 00:23:33 INFO  - Enter Confirm Password  --Pass
+2021-09-09 00:23:37 INFO  - Click on Submit  --Pass
+2021-09-09 00:26:48 INFO  - Default test
+2021-09-09 00:26:48 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:26:50 INFO  - Testcase started: test_16619
+2021-09-09 00:26:52 INFO  - Enter Email  --Pass
+2021-09-09 00:26:59 INFO  - Click on enter icon  --Pass
+2021-09-09 00:26:59 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:27:00 INFO  - Verify Home tab --Pass
+2021-09-09 00:27:00 INFO  - Enter FirstName  --Pass
+2021-09-09 00:27:00 INFO  - Enter LastName  --Pass
+2021-09-09 00:27:01 INFO  - Enter Adress  --Pass
+2021-09-09 00:27:01 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:27:01 INFO  - Enter Phone  --Pass
+2021-09-09 00:27:05 INFO  - Click on Male  --Pass
+2021-09-09 00:27:08 INFO  - Click on Cricket  --Pass
+2021-09-09 00:27:12 INFO  - Click on Hockey  --Pass
+2021-09-09 00:27:12 INFO  - Select skills  --Pass
+2021-09-09 00:27:12 INFO  - Select Country  --Pass
+2021-09-09 00:27:13 INFO  - Select year  --Pass
+2021-09-09 00:27:13 INFO  - Select month  --Pass
+2021-09-09 00:27:13 INFO  - Select day  --Pass
+2021-09-09 00:27:13 INFO  - Enter Password  --Pass
+2021-09-09 00:27:14 INFO  - Enter Confirm Password  --Pass
+2021-09-09 00:27:17 INFO  - Click on Submit  --Pass
+2021-09-09 00:28:22 INFO  - Default test
+2021-09-09 00:28:22 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:28:24 INFO  - Testcase started: test_16619
+2021-09-09 00:28:26 INFO  - Enter Email  --Pass
+2021-09-09 00:28:33 INFO  - Click on enter icon  --Pass
+2021-09-09 00:28:33 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:28:34 INFO  - Verify Home tab --Pass
+2021-09-09 00:28:34 INFO  - Enter FirstName  --Pass
+2021-09-09 00:28:34 INFO  - Enter LastName  --Pass
+2021-09-09 00:28:35 INFO  - Enter Adress  --Pass
+2021-09-09 00:28:35 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:28:35 INFO  - Enter Phone  --Pass
+2021-09-09 00:28:39 INFO  - Click on Male  --Pass
+2021-09-09 00:28:42 INFO  - Click on Cricket  --Pass
+2021-09-09 00:28:46 INFO  - Click on Hockey  --Pass
+2021-09-09 00:28:46 INFO  - Select skills  --Pass
+2021-09-09 00:28:46 INFO  - Select Country  --Pass
+2021-09-09 00:28:46 INFO  - Select year  --Pass
+2021-09-09 00:28:47 INFO  - Select month  --Pass
+2021-09-09 00:28:47 INFO  - Select day  --Pass
+2021-09-09 00:28:47 INFO  - Enter Password  --Pass
+2021-09-09 00:28:47 INFO  - Enter Confirm Password  --Pass
+2021-09-09 00:28:47 INFO  - Upload Profile Photo  --Pass
+2021-09-09 00:28:51 INFO  - Click on Submit  --Pass
+2021-09-09 00:30:03 INFO  - Default test
+2021-09-09 00:30:03 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:30:05 INFO  - Testcase started: test_29507
+2021-09-09 00:30:13 INFO  - Click on Sign on button  --Pass
+2021-09-09 00:30:13 INFO  - Enter Email  --Pass
+2021-09-09 00:30:13 INFO  - Enter Password  --Pass
+2021-09-09 00:30:17 INFO  - Click on enter  --Pass
+2021-09-09 00:38:04 INFO  - Default test
+2021-09-09 00:38:04 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:38:07 INFO  - Testcase started: test_29507
+2021-09-09 00:38:15 INFO  - Click on Sign on button  --Pass
+2021-09-09 00:38:15 INFO  - Enter Email  --Pass
+2021-09-09 00:38:15 INFO  - Enter Password  --Pass
+2021-09-09 00:38:19 INFO  - Click on enter  --Pass
+2021-09-09 00:42:56 INFO  - Smoke
+2021-09-09 00:42:57 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:42:57 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:42:59 INFO  - Testcase started: test_16619
+2021-09-09 00:42:59 INFO  - Testcase started: test_29507
+2021-09-09 00:43:01 INFO  - Enter Email  --Pass
+2021-09-09 00:43:07 INFO  - Click on Sign on button  --Pass
+2021-09-09 00:43:07 INFO  - Enter Email  --Pass
+2021-09-09 00:43:08 INFO  - Enter Password  --Pass
+2021-09-09 00:43:09 INFO  - Click on enter icon  --Pass
+2021-09-09 00:43:09 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:43:09 INFO  - Verify Home tab --Pass
+2021-09-09 00:43:10 INFO  - Enter FirstName  --Pass
+2021-09-09 00:43:10 INFO  - Enter LastName  --Pass
+2021-09-09 00:43:10 INFO  - Enter Adress  --Pass
+2021-09-09 00:43:10 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:43:11 INFO  - Enter Phone  --Pass
+2021-09-09 00:43:11 INFO  - Click on enter  --Pass
+2021-09-09 00:43:11 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:43:14 INFO  - Click on Male  --Pass
+2021-09-09 00:43:18 INFO  - Click on Cricket  --Pass
+2021-09-09 00:43:22 INFO  - Click on Hockey  --Pass
+2021-09-09 00:43:22 INFO  - Select skills  --Pass
+2021-09-09 00:43:22 INFO  - Select Country  --Pass
+2021-09-09 00:43:22 INFO  - Select year  --Pass
+2021-09-09 00:43:22 INFO  - Select month  --Pass
+2021-09-09 00:43:22 INFO  - Select day  --Pass
+2021-09-09 00:43:23 INFO  - Enter Password  --Pass
+2021-09-09 00:43:23 INFO  - Enter Confirm Password  --Pass
+2021-09-09 00:43:23 INFO  - Upload Profile Photo  --Pass
+2021-09-09 00:43:27 INFO  - Click on Submit  --Pass
+2021-09-09 00:44:38 INFO  - Failed :Verify Home tab  --Fail
+2021-09-09 00:44:41 INFO  - Smoke
+2021-09-09 00:44:41 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:44:41 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-09-09 00:44:43 INFO  - Testcase started: test_29507
+2021-09-09 00:44:43 INFO  - Testcase started: test_16619
+2021-09-09 00:44:46 INFO  - Enter Email  --Pass
+2021-09-09 00:44:51 INFO  - Click on Sign on button  --Pass
+2021-09-09 00:44:52 INFO  - Enter Email  --Pass
+2021-09-09 00:44:52 INFO  - Enter Password  --Pass
+2021-09-09 00:44:52 INFO  - Click on enter icon  --Pass
+2021-09-09 00:44:52 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:44:53 INFO  - Verify Home tab --Pass
+2021-09-09 00:44:53 INFO  - Enter FirstName  --Pass
+2021-09-09 00:44:53 INFO  - Enter LastName  --Pass
+2021-09-09 00:44:53 INFO  - Enter Adress  --Pass
+2021-09-09 00:44:54 INFO  - Enter EmailAdress  --Pass
+2021-09-09 00:44:54 INFO  - Enter Phone  --Pass
+2021-09-09 00:44:55 INFO  - Click on enter  --Pass
+2021-09-09 00:44:55 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-09-09 00:44:58 INFO  - Click on Male  --Pass
+2021-09-09 00:45:01 INFO  - Click on Cricket  --Pass
+2021-09-09 00:45:05 INFO  - Click on Hockey  --Pass
+2021-09-09 00:45:05 INFO  - Select skills  --Pass
+2021-09-09 00:45:05 INFO  - Select Country  --Pass
+2021-09-09 00:45:05 INFO  - Select year  --Pass
+2021-09-09 00:45:06 INFO  - Select month  --Pass
+2021-09-09 00:45:06 INFO  - Select day  --Pass
+2021-09-09 00:45:06 INFO  - Enter Password  --Pass
+2021-09-09 00:45:06 INFO  - Enter Confirm Password  --Pass
+2021-09-09 00:45:06 INFO  - Upload Profile Photo  --Pass
+2021-09-09 00:45:10 INFO  - Click on Submit  --Pass
+2021-09-09 00:49:08 INFO  - Failed :Verify Home tab  --Fail

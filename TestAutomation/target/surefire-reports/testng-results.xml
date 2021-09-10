@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="114277" started-at="2021-09-09T00:42:56 IST" finished-at="2021-09-09T00:44:50 IST">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="114277" started-at="2021-09-09T00:42:56 IST" finished-at="2021-09-09T00:44:50 IST">
+      <class name="com.smoke.tests.VerifyLogin">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifyLogin@6b419da]" name="beforeMethod" is-config="true" duration-ms="2422" started-at="2021-09-09T00:42:57 IST" finished-at="2021-09-09T00:42:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- com.smoke.tests.VerifyLogin -->
+      <class name="com.smoke.tests.VerifySignup">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.smoke.tests.VerifySignup@7fc229ab]" name="beforeMethod" is-config="true" duration-ms="2422" started-at="2021-09-09T00:42:57 IST" finished-at="2021-09-09T00:42:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_16619(java.util.HashMap,java.lang.reflect.Method)[pri:0, instance:com.smoke.tests.VerifySignup@7fc229ab]" name="test_16619" duration-ms="27731" started-at="2021-09-09T00:42:59 IST" description="Verify the Sign up" data-provider="getExcelTestData" finished-at="2021-09-09T00:43:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=6, ConfirmPassword=simple, Month=November, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=06-Nov-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.smoke.tests.VerifySignup.test_16619(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_16619 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.smoke.tests.VerifySignup@7fc229ab]" name="afterMethod" is-config="true" duration-ms="561" started-at="2021-09-09T00:43:27 IST" finished-at="2021-09-09T00:43:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.smoke.tests.VerifySignup -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
