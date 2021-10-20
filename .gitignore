@@ -44,6 +44,6 @@ buildNumber.properties
 .classpath
 
 ###Others###
-ExecutuionReports/
-lib/
-test-output/
+ExecutuionReports/*
+lib/*
+test-output/*
