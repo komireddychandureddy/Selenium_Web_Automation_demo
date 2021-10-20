@@ -318,3 +318,909 @@ Driver info: driver.version: unknown
 2021-09-10 22:00:23 INFO  - Upload Profile Photo  --Pass
 2021-09-10 22:00:27 INFO  - Click on Submit  --Pass
 2021-09-10 22:04:22 INFO  - Failed :Verify Home tab  --Fail
+2021-10-16 23:01:12 INFO  - Default test
+2021-10-16 23:02:43 INFO  - Default test
+2021-10-16 23:02:44 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-16 23:03:20 INFO  - Testcase started: test_29507
+2021-10-16 23:03:31 INFO  - Failed :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@ng-model='Email']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49683}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8c66c47e1e3378fbd651cf501380ca2
+*** Element info: {Using=xpath, value=//input[@ng-model='Email']}
+2021-10-16 23:03:31 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211016230331_test_29507.jpg
+2021-10-16 23:05:28 INFO  - Default test
+2021-10-16 23:05:28 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-16 23:05:34 INFO  - Testcase started: test_29507
+2021-10-16 23:05:39 INFO  - Click on Sign on button  --Pass
+2021-10-16 23:05:39 INFO  - Enter Email  --Pass
+2021-10-16 23:05:40 INFO  - Enter Password  --Pass
+2021-10-16 23:05:43 INFO  - Click on enter  --Pass
+2021-10-16 23:05:53 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-16 23:06:34 INFO  - Failed :Verify Home tab  --Fail
+2021-10-16 23:13:33 INFO  - Default test
+2021-10-16 23:13:33 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-16 23:13:38 INFO  - Testcase started: test_29507
+2021-10-16 23:13:44 INFO  - Click on Sign on button  --Pass
+2021-10-16 23:13:45 INFO  - Enter Email  --Pass
+2021-10-16 23:13:45 INFO  - Enter Password  --Pass
+2021-10-16 23:13:48 INFO  - Click on enter  --Pass
+2021-10-16 23:13:58 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-16 23:14:39 INFO  - Failed :Verify Home tab  --Fail
+2021-10-16 23:14:39 INFO  - Failed :null
+2021-10-16 23:14:40 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211016231439_test_29507.jpg
+2021-10-16 23:18:11 INFO  - Default test
+2021-10-16 23:18:12 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-16 23:18:16 INFO  - Testcase started: test_29507
+2021-10-16 23:18:22 INFO  - Click on Sign on button  --Pass
+2021-10-16 23:18:22 INFO  - Enter Email  --Pass
+2021-10-16 23:18:22 INFO  - Enter Password  --Pass
+2021-10-16 23:18:25 INFO  - Click on enter  --Pass
+2021-10-16 23:18:36 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-16 23:19:17 INFO  - Failed :Verify Home tab  --Fail
+2021-10-16 23:19:17 INFO  - Failed :null
+2021-10-16 23:19:18 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211016231917_test_29507.jpg
+2021-10-18 20:11:33 INFO  - Default test
+2021-10-18 20:11:33 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:11:40 INFO  - Testcase started: test_29507
+2021-10-18 20:11:45 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:11:45 INFO  - Enter Email  --Pass
+2021-10-18 20:11:45 INFO  - Enter Password  --Pass
+2021-10-18 20:11:48 INFO  - Click on enter  --Pass
+2021-10-18 20:12:16 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:14:12 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:14:41 INFO  - Failed :null
+2021-10-18 20:14:50 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018201441_test_29507.jpg
+2021-10-18 20:19:18 INFO  - Default test
+2021-10-18 20:19:19 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:19:24 INFO  - Testcase started: test_29507
+2021-10-18 20:19:30 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:19:30 INFO  - Enter Email  --Pass
+2021-10-18 20:19:30 INFO  - Enter Password  --Pass
+2021-10-18 20:19:33 INFO  - Click on enter  --Pass
+2021-10-18 20:19:55 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:20:36 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:23:11 INFO  - Failed :null
+2021-10-18 20:23:20 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018202311_test_29507.jpg
+2021-10-18 20:26:19 INFO  - Default test
+2021-10-18 20:26:20 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:26:24 INFO  - Testcase started: test_29507
+2021-10-18 20:26:28 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:26:29 INFO  - Enter Email  --Pass
+2021-10-18 20:26:29 INFO  - Enter Password  --Pass
+2021-10-18 20:26:32 INFO  - Click on enter  --Pass
+2021-10-18 20:26:58 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:28:10 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:28:32 INFO  - Failed :null
+2021-10-18 20:28:41 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018202832_test_29507.jpg
+2021-10-18 20:29:58 INFO  - Default test
+2021-10-18 20:30:08 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:30:11 INFO  - Testcase started: test_29507
+2021-10-18 20:30:17 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:30:17 INFO  - Enter Email  --Pass
+2021-10-18 20:30:17 INFO  - Enter Password  --Pass
+2021-10-18 20:30:20 INFO  - Click on enter  --Pass
+2021-10-18 20:30:41 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:31:23 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:33:14 INFO  - Failed :null
+2021-10-18 20:33:14 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018203314_test_29507.jpg
+2021-10-18 20:33:36 INFO  - Default test
+2021-10-18 20:33:36 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:33:41 INFO  - Testcase started: test_29507
+2021-10-18 20:33:46 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:33:46 INFO  - Enter Email  --Pass
+2021-10-18 20:33:46 INFO  - Enter Password  --Pass
+2021-10-18 20:33:49 INFO  - Click on enter  --Pass
+2021-10-18 20:33:59 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:34:41 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:34:41 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018203441_test_29507.jpg
+2021-10-18 20:39:48 INFO  - Default test
+2021-10-18 20:39:49 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:39:54 INFO  - Testcase started: test_29507
+2021-10-18 20:39:59 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:39:59 INFO  - Enter Email  --Pass
+2021-10-18 20:39:59 INFO  - Enter Password  --Pass
+2021-10-18 20:40:02 INFO  - Click on enter  --Pass
+2021-10-18 20:40:18 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 20:40:59 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 20:41:52 INFO  - Failed :Home page is not visiable expected [true] but found [false]
+2021-10-18 20:42:34 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018204225_test_29507.jpg
+2021-10-18 20:59:13 INFO  - Default test
+2021-10-18 20:59:13 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 20:59:17 INFO  - Testcase started: test_29507
+2021-10-18 20:59:22 INFO  - Click on Sign on button  --Pass
+2021-10-18 20:59:22 INFO  - Enter Email  --Pass
+2021-10-18 20:59:22 INFO  - Enter Password  --Pass
+2021-10-18 20:59:25 INFO  - Click on enter  --Pass
+2021-10-18 20:59:35 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:00:17 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:00:17 INFO  - Failed :Home page is not visiable expected [true] but found [false]
+2021-10-18 21:00:17 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018210017_test_29507.jpg
+2021-10-18 21:01:26 INFO  - Default test
+2021-10-18 21:01:27 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:01:31 INFO  - Testcase started: test_29507
+2021-10-18 21:01:36 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:01:36 INFO  - Enter Email  --Pass
+2021-10-18 21:01:36 INFO  - Enter Password  --Pass
+2021-10-18 21:01:39 INFO  - Click on enter  --Pass
+2021-10-18 21:01:49 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:02:30 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:02:31 INFO  - Failed :[Ljava.lang.StackTraceElement;@4d192aef
+2021-10-18 21:02:31 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018210231_test_29507.jpg
+2021-10-18 21:19:43 INFO  - Default test
+2021-10-18 21:19:43 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:19:49 INFO  - Testcase started: test_29507
+2021-10-18 21:19:54 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:19:54 INFO  - Enter Email  --Pass
+2021-10-18 21:19:54 INFO  - Enter Password  --Pass
+2021-10-18 21:19:57 INFO  - Click on enter  --Pass
+2021-10-18 21:20:07 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:20:49 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:20:49 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin2.test_29507(VerifyLogin2.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2021-10-18 21:20:49 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018212049_test_29507.jpg
+2021-10-18 21:24:38 INFO  - Smoke
+2021-10-18 21:24:38 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:24:38 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:24:43 INFO  - Testcase started: test_29508
+2021-10-18 21:24:43 INFO  - Testcase started: test_29507
+2021-10-18 21:24:48 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:24:48 INFO  - Enter Email  --Pass
+2021-10-18 21:24:48 INFO  - Enter Password  --Pass
+2021-10-18 21:24:48 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:24:48 INFO  - Enter Email  --Pass
+2021-10-18 21:24:48 INFO  - Enter Password  --Pass
+2021-10-18 21:24:51 INFO  - Click on enter  --Pass
+2021-10-18 21:24:51 INFO  - Click on enter  --Pass
+2021-10-18 21:25:01 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:25:01 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:25:42 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:25:43 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:25:43 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin3.test_29508(VerifyLogin3.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-18 21:25:43 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin2.test_29507(VerifyLogin2.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-18 21:25:43 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018212543_test_29507.jpg
+2021-10-18 21:25:43 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018212543_test_29508.jpg
+2021-10-18 21:27:06 INFO  - Smoke
+2021-10-18 21:27:12 INFO  - Smoke
+2021-10-18 21:27:13 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:27:13 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-18 21:27:17 INFO  - Testcase started: test_29508
+2021-10-18 21:27:17 INFO  - Testcase started: test_29507
+2021-10-18 21:27:22 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:27:22 INFO  - Enter Email  --Pass
+2021-10-18 21:27:22 INFO  - Enter Password  --Pass
+2021-10-18 21:27:22 INFO  - Click on Sign on button  --Pass
+2021-10-18 21:27:24 INFO  - Enter Email  --Pass
+2021-10-18 21:27:24 INFO  - Enter Password  --Pass
+2021-10-18 21:27:25 INFO  - Click on enter  --Pass
+2021-10-18 21:27:28 INFO  - Click on enter  --Pass
+2021-10-18 21:27:35 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:27:40 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-18 21:28:16 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:28:17 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin2.test_29507(VerifyLogin2.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-18 21:28:17 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018212817_test_29507.jpg
+2021-10-18 21:28:21 INFO  - Failed :Verify Home tab  --Fail
+2021-10-18 21:28:21 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin3.test_29508(VerifyLogin3.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-18 21:28:21 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211018212821_test_29508.jpg
+2021-10-20 06:31:10 INFO  - Default test
+2021-10-20 06:31:11 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 06:31:16 INFO  - Testcase started: test_29508
+2021-10-20 06:31:17 INFO  - Enter Email  --Pass
+2021-10-20 06:31:23 INFO  - Click on enter icon  --Pass
+2021-10-20 06:31:23 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (b49cbab4605deedf8714db26baa57b80)] -> xpath: //a[text()='Home']]
+2021-10-20 06:31:23 INFO  - Verify Home tab --Pass
+2021-10-20 06:31:23 INFO  - Enter FirstName  --Pass
+2021-10-20 06:31:23 INFO  - Enter LastName  --Pass
+2021-10-20 06:31:23 INFO  - Enter Adress  --Pass
+2021-10-20 06:31:23 INFO  - Enter EmailAdress  --Pass
+2021-10-20 06:31:23 INFO  - Enter Phone  --Pass
+2021-10-20 06:31:27 INFO  - Click on Male  --Pass
+2021-10-20 06:31:27 INFO  - Failed :java.lang.NullPointerException
+	at com.smoke.Web.RegistrationPage.selectHobbies(RegistrationPage.java:86)
+	at com.smoke.tests.VerifyLogin3.test_29508(VerifyLogin3.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2021-10-20 06:31:28 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020063127_test_29508.jpg
+2021-10-20 06:33:20 INFO  - Smoke
+2021-10-20 06:33:20 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 06:33:20 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 06:33:24 INFO  - Testcase started: test_29507
+2021-10-20 06:33:26 INFO  - Testcase started: test_29508
+2021-10-20 06:33:26 INFO  - Enter Email  --Pass
+2021-10-20 06:33:29 INFO  - Click on Sign on button  --Pass
+2021-10-20 06:33:29 INFO  - Enter Email  --Pass
+2021-10-20 06:33:29 INFO  - Enter Password  --Pass
+2021-10-20 06:33:33 INFO  - Click on enter  --Pass
+2021-10-20 06:33:43 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-20 06:33:56 INFO  - Click on enter icon  --Pass
+2021-10-20 06:33:56 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (92cfe3e82afa34d16ec1b59e20da7238)] -> xpath: //a[text()='Home']]
+2021-10-20 06:33:56 INFO  - Verify Home tab --Pass
+2021-10-20 06:33:56 INFO  - Enter FirstName  --Pass
+2021-10-20 06:33:56 INFO  - Enter LastName  --Pass
+2021-10-20 06:33:57 INFO  - Enter Adress  --Pass
+2021-10-20 06:33:57 INFO  - Enter EmailAdress  --Pass
+2021-10-20 06:33:57 INFO  - Enter Phone  --Pass
+2021-10-20 06:34:01 INFO  - Click on Male  --Pass
+2021-10-20 06:34:01 INFO  - Failed :java.lang.NullPointerException
+	at com.smoke.Web.RegistrationPage.selectHobbies(RegistrationPage.java:86)
+	at com.smoke.tests.SignUp.test_29508(SignUp.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 06:34:01 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020063401_test_29508.jpg
+2021-10-20 06:34:24 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 06:34:24 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.VerifyLogin2.test_29507(VerifyLogin2.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 06:34:24 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020063424_test_29507.jpg
+2021-10-20 07:32:14 INFO  - Default test
+2021-10-20 07:32:15 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:32:20 INFO  - Testcase started: test_29508
+2021-10-20 07:32:20 INFO  - Enter Email  --Pass
+2021-10-20 07:32:26 INFO  - Click on enter icon  --Pass
+2021-10-20 07:32:56 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (682b302f59e74905d080c962ceb77300)] -> xpath: //a[text()='Home']]
+2021-10-20 07:32:59 INFO  - Verify Home tab --Pass
+2021-10-20 07:33:04 INFO  - Enter FirstName  --Pass
+2021-10-20 07:33:04 INFO  - Enter LastName  --Pass
+2021-10-20 07:33:04 INFO  - Enter Adress  --Pass
+2021-10-20 07:33:04 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:33:05 INFO  - Enter Phone  --Pass
+2021-10-20 07:33:08 INFO  - Click on Male  --Pass
+2021-10-20 07:33:58 INFO  - Failed :java.lang.NullPointerException
+	at com.smoke.Web.RegistrationPage.selectHobbies(RegistrationPage.java:89)
+	at com.smoke.tests.SignUp.test_29508(SignUp.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2021-10-20 07:34:34 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020073434_test_29508.jpg
+2021-10-20 07:44:17 INFO  - Smoke
+2021-10-20 07:44:18 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:18 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:18 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:18 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:23 INFO  - Smoke
+2021-10-20 07:44:25 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:25 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:25 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:25 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:44:32 INFO  - Testcase started: test_16619
+2021-10-20 07:44:32 INFO  - Testcase started: test_29508
+2021-10-20 07:44:33 INFO  - Testcase started: test_29507
+2021-10-20 07:44:33 INFO  - Enter Email  --Pass
+2021-10-20 07:44:33 INFO  - Enter Email  --Pass
+2021-10-20 07:44:33 INFO  - Testcase started: test_29507
+2021-10-20 07:44:39 INFO  - Click on Sign on button  --Pass
+2021-10-20 07:44:39 INFO  - Enter Email  --Pass
+2021-10-20 07:44:40 INFO  - Click on Sign on button  --Pass
+2021-10-20 07:44:40 INFO  - Enter Password  --Pass
+2021-10-20 07:44:41 INFO  - Enter Email  --Pass
+2021-10-20 07:44:41 INFO  - Enter Password  --Pass
+2021-10-20 07:44:41 INFO  - Click on enter icon  --Pass
+2021-10-20 07:44:41 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (2e0912bbf52367ef8d3831c210eda188)] -> xpath: //a[text()='Home']]
+2021-10-20 07:44:42 INFO  - Verify Home tab --Pass
+2021-10-20 07:44:42 INFO  - Enter FirstName  --Pass
+2021-10-20 07:44:42 INFO  - Click on enter icon  --Pass
+2021-10-20 07:44:42 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:44:42 INFO  - Enter LastName  --Pass
+2021-10-20 07:44:42 INFO  - Enter Adress  --Pass
+2021-10-20 07:44:43 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:44:43 INFO  - Verify Home tab --Pass
+2021-10-20 07:44:43 INFO  - Enter Phone  --Pass
+2021-10-20 07:44:44 INFO  - Enter FirstName  --Pass
+2021-10-20 07:44:44 INFO  - Enter LastName  --Pass
+2021-10-20 07:44:44 INFO  - Click on enter  --Pass
+2021-10-20 07:44:44 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:44:44 INFO  - Enter Adress  --Pass
+2021-10-20 07:44:45 INFO  - Click on enter  --Pass
+2021-10-20 07:44:45 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:44:45 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:44:45 INFO  - Enter Phone  --Pass
+2021-10-20 07:44:47 INFO  - Click on Male  --Pass
+2021-10-20 07:44:49 INFO  - Click on Male  --Pass
+2021-10-20 07:44:51 INFO  - Click on Cricket  --Pass
+2021-10-20 07:44:53 INFO  - Click on Cricket  --Pass
+2021-10-20 07:44:54 INFO  - Click on Hockey  --Pass
+2021-10-20 07:44:55 INFO  - Select skills  --Pass
+2021-10-20 07:44:56 INFO  - Click on Hockey  --Pass
+2021-10-20 07:44:57 INFO  - Select skills  --Pass
+2021-10-20 07:45:05 INFO  - Failed :org.openqa.selenium.NoSuchElementException: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at controllers.BaseMethod.selectByVisibleText(BaseMethod.java:426)
+	at com.smoke.Web.RegistrationPage.selectCountry(RegistrationPage.java:104)
+	at com.smoke.tests.SignUp.test_29508(SignUp.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 07:45:06 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020074505_test_29508.jpg
+2021-10-20 07:45:07 INFO  - Failed :java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 07:45:07 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020074507_test_16619.jpg
+2021-10-20 07:48:57 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 07:48:57 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 07:49:07 INFO  - Failed :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btn1"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50107}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9227b57c294c9ab270087cbea671cd4
+*** Element info: {Using=id, value=btn1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at controllers.BaseMethod.click(BaseMethod.java:337)
+	at com.smoke.Web.WelcomePage.signIn(WelcomePage.java:35)
+	at com.smoke.tests.Login.test_29507(Login.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 07:49:08 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020074907_test_29507.jpg
+2021-10-20 07:51:58 INFO  - Default test
+2021-10-20 07:51:59 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:52:03 INFO  - Testcase started: test_29508
+2021-10-20 07:52:04 INFO  - Enter Email  --Pass
+2021-10-20 07:52:31 INFO  - Click on enter icon  --Pass
+2021-10-20 07:52:31 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (667b9e3616baee7c22941d8bfc697dbe)] -> xpath: //a[text()='Home']]
+2021-10-20 07:52:31 INFO  - Verify Home tab --Pass
+2021-10-20 07:52:31 INFO  - Enter FirstName  --Pass
+2021-10-20 07:52:32 INFO  - Enter LastName  --Pass
+2021-10-20 07:52:32 INFO  - Enter Adress  --Pass
+2021-10-20 07:52:32 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:52:32 INFO  - Enter Phone  --Pass
+2021-10-20 07:52:36 INFO  - Click on Male  --Pass
+2021-10-20 07:52:39 INFO  - Click on Cricket  --Pass
+2021-10-20 07:52:43 INFO  - Click on Hockey  --Pass
+2021-10-20 07:52:43 INFO  - Select skills  --Pass
+2021-10-20 07:52:44 INFO  - Select year  --Pass
+2021-10-20 07:52:44 INFO  - Select month  --Pass
+2021-10-20 07:52:54 INFO  - Failed :org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 01
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at controllers.BaseMethod.selectByVisibleText(BaseMethod.java:426)
+	at com.smoke.Web.RegistrationPage.selectDOB(RegistrationPage.java:113)
+	at com.smoke.tests.SignUp.test_29508(SignUp.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2021-10-20 07:52:55 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020075254_test_29508.jpg
+2021-10-20 07:53:34 INFO  - Default test
+2021-10-20 07:53:34 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:53:38 INFO  - Testcase started: test_29508
+2021-10-20 07:53:39 INFO  - Enter Email  --Pass
+2021-10-20 07:53:45 INFO  - Click on enter icon  --Pass
+2021-10-20 07:53:45 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (1b983fc263dde3ef67a16381d8a46c27)] -> xpath: //a[text()='Home']]
+2021-10-20 07:53:45 INFO  - Verify Home tab --Pass
+2021-10-20 07:53:45 INFO  - Enter FirstName  --Pass
+2021-10-20 07:53:45 INFO  - Enter LastName  --Pass
+2021-10-20 07:53:45 INFO  - Enter Adress  --Pass
+2021-10-20 07:53:45 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:53:46 INFO  - Enter Phone  --Pass
+2021-10-20 07:53:49 INFO  - Click on Male  --Pass
+2021-10-20 07:53:53 INFO  - Click on Cricket  --Pass
+2021-10-20 07:53:56 INFO  - Click on Hockey  --Pass
+2021-10-20 07:53:57 INFO  - Select skills  --Pass
+2021-10-20 07:53:57 INFO  - Select year  --Pass
+2021-10-20 07:53:57 INFO  - Select month  --Pass
+2021-10-20 07:53:58 INFO  - Select day  --Pass
+2021-10-20 07:53:58 INFO  - Enter Password  --Pass
+2021-10-20 07:53:58 INFO  - Enter Confirm Password  --Pass
+2021-10-20 07:53:58 INFO  - Upload Profile Photo  --Pass
+2021-10-20 07:54:01 INFO  - Click on Submit  --Pass
+2021-10-20 07:57:48 INFO  - Smoke
+2021-10-20 07:57:48 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:57:48 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:57:48 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:57:48 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 07:57:54 INFO  - Testcase started: test_29507
+2021-10-20 07:57:54 INFO  - Testcase started: test_16619
+2021-10-20 07:57:54 INFO  - Testcase started: test_29508
+2021-10-20 07:57:54 INFO  - Testcase started: test_29507
+2021-10-20 07:57:54 INFO  - Enter Email  --Pass
+2021-10-20 07:57:55 INFO  - Enter Email  --Pass
+2021-10-20 07:58:00 INFO  - Click on Sign on button  --Pass
+2021-10-20 07:58:00 INFO  - Click on Sign on button  --Pass
+2021-10-20 07:58:00 INFO  - Enter Email  --Pass
+2021-10-20 07:58:00 INFO  - Enter Email  --Pass
+2021-10-20 07:58:01 INFO  - Enter Password  --Pass
+2021-10-20 07:58:01 INFO  - Enter Password  --Pass
+2021-10-20 07:58:02 INFO  - Click on enter icon  --Pass
+2021-10-20 07:58:02 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (8d434b99c8ded1b9a3fe3fb15482afd4)] -> xpath: //a[text()='Home']]
+2021-10-20 07:58:02 INFO  - Verify Home tab --Pass
+2021-10-20 07:58:02 INFO  - Enter FirstName  --Pass
+2021-10-20 07:58:02 INFO  - Enter LastName  --Pass
+2021-10-20 07:58:02 INFO  - Enter Adress  --Pass
+2021-10-20 07:58:02 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:58:03 INFO  - Enter Phone  --Pass
+2021-10-20 07:58:04 INFO  - Click on enter icon  --Pass
+2021-10-20 07:58:04 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:58:04 INFO  - Click on enter  --Pass
+2021-10-20 07:58:04 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:58:04 INFO  - Click on enter  --Pass
+2021-10-20 07:58:04 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 07:58:05 INFO  - Verify Home tab --Pass
+2021-10-20 07:58:05 INFO  - Enter FirstName  --Pass
+2021-10-20 07:58:05 INFO  - Enter LastName  --Pass
+2021-10-20 07:58:05 INFO  - Enter Adress  --Pass
+2021-10-20 07:58:06 INFO  - Enter EmailAdress  --Pass
+2021-10-20 07:58:06 INFO  - Enter Phone  --Pass
+2021-10-20 07:58:06 INFO  - Click on Male  --Pass
+2021-10-20 07:58:09 INFO  - Click on Male  --Pass
+2021-10-20 07:58:10 INFO  - Click on Cricket  --Pass
+2021-10-20 07:58:13 INFO  - Click on Cricket  --Pass
+2021-10-20 07:58:14 INFO  - Click on Hockey  --Pass
+2021-10-20 07:58:14 INFO  - Select skills  --Pass
+2021-10-20 07:58:14 INFO  - Select year  --Pass
+2021-10-20 07:58:14 INFO  - Select month  --Pass
+2021-10-20 07:58:15 INFO  - Select day  --Pass
+2021-10-20 07:58:15 INFO  - Enter Password  --Pass
+2021-10-20 07:58:15 INFO  - Enter Confirm Password  --Pass
+2021-10-20 07:58:15 INFO  - Upload Profile Photo  --Pass
+2021-10-20 07:58:17 INFO  - Click on Hockey  --Pass
+2021-10-20 07:58:17 INFO  - Select skills  --Pass
+2021-10-20 07:58:18 INFO  - Click on Submit  --Pass
+2021-10-20 07:58:27 INFO  - Failed :java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 07:58:28 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020075827_test_16619.jpg
+2021-10-20 08:02:17 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 08:02:17 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 08:02:27 INFO  - Failed :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btn1"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bdb09c975b6d1f6f85905ac19e06d084
+*** Element info: {Using=id, value=btn1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at controllers.BaseMethod.click(BaseMethod.java:337)
+	at com.smoke.Web.WelcomePage.signIn(WelcomePage.java:35)
+	at com.smoke.tests.Login.test_29507(Login.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 08:02:27 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020080227_test_29507.jpg
+2021-10-20 08:13:17 INFO  - Smoke
+2021-10-20 08:13:17 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 08:13:17 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 08:13:17 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 08:13:17 INFO  - Browser: chrome  URL: http://demo.automationtesting.in/
+2021-10-20 08:13:22 INFO  - Testcase started: test_29508
+2021-10-20 08:13:22 INFO  - Testcase started: test_29507
+2021-10-20 08:13:22 INFO  - Testcase started: test_16619
+2021-10-20 08:13:23 INFO  - Testcase started: test_16618
+2021-10-20 08:13:23 INFO  - Enter Email  --Pass
+2021-10-20 08:13:23 INFO  - Enter Email  --Pass
+2021-10-20 08:13:28 INFO  - Click on Sign on button  --Pass
+2021-10-20 08:13:28 INFO  - Enter Email  --Pass
+2021-10-20 08:13:28 INFO  - Enter Password  --Pass
+2021-10-20 08:13:30 INFO  - Click on enter icon  --Pass
+2021-10-20 08:13:30 INFO  - Check Element visible: [[ChromeDriver: chrome on WINDOWS (ad770bbf1d063fbbcfaf6b90a31cadee)] -> xpath: //a[text()='Home']]
+2021-10-20 08:13:30 INFO  - Verify Home tab --Pass
+2021-10-20 08:13:30 INFO  - Enter FirstName  --Pass
+2021-10-20 08:13:30 INFO  - Enter LastName  --Pass
+2021-10-20 08:13:30 INFO  - Enter Adress  --Pass
+2021-10-20 08:13:30 INFO  - Click on Sign on button  --Pass
+2021-10-20 08:13:31 INFO  - Enter EmailAdress  --Pass
+2021-10-20 08:13:31 INFO  - Enter Phone  --Pass
+2021-10-20 08:13:31 INFO  - Enter Email  --Pass
+2021-10-20 08:13:31 INFO  - Enter Password  --Pass
+2021-10-20 08:13:31 INFO  - Click on enter  --Pass
+2021-10-20 08:13:33 INFO  - Click on enter icon  --Pass
+2021-10-20 08:13:33 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 08:13:34 INFO  - Verify Home tab --Pass
+2021-10-20 08:13:34 INFO  - Enter FirstName  --Pass
+2021-10-20 08:13:34 INFO  - Click on Male  --Pass
+2021-10-20 08:13:34 INFO  - Enter LastName  --Pass
+2021-10-20 08:13:35 INFO  - Click on enter  --Pass
+2021-10-20 08:13:35 INFO  - Check Element visible: By.xpath: //a[text()='Home']
+2021-10-20 08:13:35 INFO  - Enter Adress  --Pass
+2021-10-20 08:13:35 INFO  - Enter EmailAdress  --Pass
+2021-10-20 08:13:35 INFO  - Enter Phone  --Pass
+2021-10-20 08:13:38 INFO  - Click on Cricket  --Pass
+2021-10-20 08:13:39 INFO  - Click on Male  --Pass
+2021-10-20 08:13:41 INFO  - Check Element visible: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()='Home']'
+2021-10-20 08:13:42 INFO  - Click on Hockey  --Pass
+2021-10-20 08:13:42 INFO  - Select skills  --Pass
+2021-10-20 08:13:42 INFO  - Select year  --Pass
+2021-10-20 08:13:42 INFO  - Click on Cricket  --Pass
+2021-10-20 08:13:42 INFO  - Select month  --Pass
+2021-10-20 08:13:43 INFO  - Select day  --Pass
+2021-10-20 08:13:43 INFO  - Enter Password  --Pass
+2021-10-20 08:13:43 INFO  - Enter Confirm Password  --Pass
+2021-10-20 08:13:43 INFO  - Upload Profile Photo  --Pass
+2021-10-20 08:13:46 INFO  - Click on Hockey  --Pass
+2021-10-20 08:13:46 INFO  - Click on Submit  --Pass
+2021-10-20 08:13:46 INFO  - Select skills  --Pass
+2021-10-20 08:13:57 INFO  - Failed :java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EJBO9TN', ip: '192.168.29.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 08:13:57 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020081357_test_16619.jpg
+2021-10-20 08:14:22 INFO  - Failed :Verify Home tab  --Fail
+2021-10-20 08:14:23 INFO  - Failed :java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.Login.test_29507(Login.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-10-20 08:14:23 INFO  - Screenshot image path: C:\Users\ADMIN\git\Selenium_Web_Automation_demo\ExecutionReports\HtmlReport\FailedScreenshots\20211020081423_test_29507.jpg
+2021-10-20 08:17:47 INFO  - Failed :Verify Home tab  --Fail

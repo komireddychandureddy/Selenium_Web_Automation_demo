@@ -22,7 +22,7 @@ public class VerifySignup extends ApplicationFuncs
 {	
 
 	@Test(dataProvider="getExcelTestData",description ="Verify the Sign up")
-	public void test_16619(HashMap<String, String> data,Method method) throws Exception
+	public void test_16619(HashMap<String, String> data,Method method)
 	{
 		try {
 			String description=method.getAnnotation(Test.class).description();

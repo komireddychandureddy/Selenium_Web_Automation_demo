@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.smoke.tests.VerifySignup">
+      <class name="com.smoke.tests.SignUp">
         <methods>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="test_16619" invocation-numbers="0"/>
+          <include name="test_29508" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.smoke.tests.VerifySignup -->
+      </class> <!-- com.smoke.tests.SignUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

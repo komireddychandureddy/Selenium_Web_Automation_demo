@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Smoke_Suite">
-              <span class="suite-name border-passed">Smoke Suite</span>
+              <span class="suite-name border-failed">Smoke Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Smoke_Suite" class="hide-methods failed suite-Smoke_Suite"> (hide)</a> <!-- hide-methods failed suite-Smoke_Suite -->
+                      <a href="#" panel-name="suite-Smoke_Suite" class="show-methods failed suite-Smoke_Suite"> (show)</a> <!-- show-methods failed suite-Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Smoke_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.VerifySignup" hash-for-method="test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)">test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.Login" hash-for-method="test_29507({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.te...)">test_29507({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Smoke_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +123,12 @@
                     <div class="method-list-content passed suite-Smoke_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.VerifySignup" hash-for-method="test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)">test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.SignUp" hash-for-method="test_16618({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCod...)">test_16618({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCod...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.VerifyLogin" hash-for-method="test_29507({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=9190146...)">test_29507({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=9190146...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Suite" title="com.smoke.tests.VerifyLogin" hash-for-method="test_29508({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLo...)">test_29508({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Smoke_Suite -->
@@ -124,9 +143,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Smoke_Suite" class="panel Smoke_Suite">
-          <div class="suite-Smoke_Suite-class-passed">
+          <div class="suite-Smoke_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.smoke.tests.VerifySignup</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -135,9 +154,63 @@
                   <a name="test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)">
                   </a> <!-- test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...) -->
                   <span class="method-name">test_16619</span>
-                  <span class="parameters">({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=6, ConfirmPassword=simple, Month=November, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=06-Nov-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}, public void com.smoke.tests.VerifySignup.test_16619(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <span class="parameters">({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=6, ConfirmPassword=simple, Month=November, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=06-Nov-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}, public void com.smoke.tests.VerifySignup.test_16619(java.util.HashMap,java.lang.reflect.Method))</span>
+                  <div class="stack-trace">java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-EJBO9TN&apos;, ip: &apos;192.168.29.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: unknown
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Verify the Sign up)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Suite-class-failed -->
+          <div class="suite-Smoke_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.smoke.tests.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_29507({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.te...)">
+                  </a> <!-- test_29507({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.te...) -->
+                  <span class="method-name">test_29507</span>
+                  <span class="parameters">({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.test_29507(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at com.smoke.tests.Login.test_29507(Login.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the Sign up with Student)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Suite-class-failed -->
+          <div class="suite-Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.smoke.tests.SignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_16618({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCod...)">
+                  </a> <!-- test_16618({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCod...) -->
+                  <span class="method-name">test_16618</span>
+                  <span class="parameters">({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=1, ConfirmPassword=simple, Month=January, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=01-Jan-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple})</span>
+                  <em>
+(Verify the Sign up with newuser)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,10 +223,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_29507({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=9190146...)">
-                  </a> <!-- test_29507({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=9190146...) -->
-                  <span class="method-name">test_29507</span>
-                  <span class="parameters">({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=919014676533, Child Gender=Male, Gender=Male, Month=Nov, Child Year=1999, DOB=06-Nov-1990, Family Name=test, Password=simple, InviteEmail=Test, FirstName=Chandu, ZipCode=500081, InviteMessage=Test Message by Automation, City=Hyderabad, Date=6, ConfirmPassword=simple, TimeZone=Asia/Kolkata, Child LastName=Jhon, Year=1990, Group Name=Group, State=Andhra Pradesh, Child Date=9, Country=India, LastName=Reddy}, public void com.smoke.tests.VerifyLogin.test_29507(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <a name="test_29508({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLo...)">
+                  </a> <!-- test_29508({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLo...) -->
+                  <span class="method-name">test_29508</span>
+                  <span class="parameters">({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLogin.test_29508(java.util.HashMap,java.lang.reflect.Method))</span>
                   <em>
 (Verify the Sign up with Student)                  </em>
                 </div> <!-- method-content -->
@@ -169,12 +242,14 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Smoke Suite&quot; parallel=&quot;classes&quot; data-provider-thread-count=&quot;5&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Smoke Suite&quot; parallel=&quot;classes&quot; data-provider-thread-count=&quot;5&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listeners.CustomListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;Smoke&quot; parallel=&quot;classes&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;Smoke&quot; parallel=&quot;classes&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.smoke.tests.Login&quot;/&gt;
+      &lt;class name=&quot;com.smoke.tests.SignUp&quot;/&gt;
       &lt;class name=&quot;com.smoke.tests.VerifyLogin&quot;/&gt;
       &lt;class name=&quot;com.smoke.tests.VerifySignup&quot;/&gt;
     &lt;/classes&gt;
@@ -190,7 +265,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Smoke (2 classes)</span>
+                <span class="test-name">Smoke (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -216,20 +291,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_29507')
+data.setCell(0, 1, 'test_29508')
 data.setCell(0, 2, 'com.smoke.tests.VerifyLogin')
-data.setCell(0, 3, 263725);
+data.setCell(0, 3, 264858);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_16619')
-data.setCell(1, 2, 'com.smoke.tests.VerifySignup')
-data.setCell(1, 3, 28341);
+data.setCell(1, 1, 'test_29507')
+data.setCell(1, 2, 'com.smoke.tests.Login')
+data.setCell(1, 3, 60168);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_16619')
+data.setCell(2, 2, 'com.smoke.tests.VerifySignup')
+data.setCell(2, 3, 33889);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_16618')
+data.setCell(3, 2, 'com.smoke.tests.SignUp')
+data.setCell(3, 3, 23338);
 window.suiteTableData['Smoke_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Smoke_Suite">
               </div> <!-- times-div-Smoke_Suite -->
             </div> <!-- times-div -->
@@ -255,39 +338,88 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.smoke.tests.VerifySignup</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.smoke.tests.VerifyLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.SignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.VerifySignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.VerifyLogin</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test_29507({Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=9190146...)</span>
-                <span class="method-start">8013 ms</span>
+                <span class="method-name">test_29508({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLo...)</span>
+                <span class="method-start">4834 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_29507({Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.te...)</span>
+                <span class="method-start">4880 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.smoke.tests.VerifySignup</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_16619({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCod...)</span>
-                <span class="method-start">8013 ms</span>
+                <span class="method-start">5058 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.SignUp</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_16618({Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCod...)</span>
+                <span class="method-start">5344 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">36523 ms</span>
+                <span class="method-start">28832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.VerifySignup</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">39840 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoke.tests.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">65587 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.smoke.tests.VerifyLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">271840 ms</span>
+                <span class="method-start">269796 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

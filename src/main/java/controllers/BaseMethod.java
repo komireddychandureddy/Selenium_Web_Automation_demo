@@ -381,6 +381,23 @@ public class BaseMethod extends WebDriverFactory
 	
 		}
 	}
+	/**
+	 * @param locator
+	 * @param data
+	 * @return
+	 */
+	public void inputText(WebElement elm, String data, String logStep) {
+		
+		
+		if (elm == null) {
+			logStepFail(logStep+"  --Fail");		
+		} else {
+			elm.clear();
+			elm.sendKeys(data);
+			logStep(logStep +"  --Pass");
+	
+		}
+	}
 
 	
 	public void selectByVisibleText(By locator, String data, String logStep)
@@ -398,6 +415,20 @@ public class BaseMethod extends WebDriverFactory
 		}
 		
 	}
+	public void selectByVisibleText(WebElement element, String data, String logStep)
+	{
+		
+		if (element == null) {
+			logStepFail(logStep+"  --Fail");		
+		} else {
+			highlightElement(element);
+			se = new Select(element);
+			se.selectByVisibleText(data);
+			logStep(logStep +"  --Pass");
+	
+		}
+		
+	}
 	
 	public void selectByValue(By locator, String data, String logStep)
 	{
@@ -407,6 +438,20 @@ public class BaseMethod extends WebDriverFactory
 			logStepFail(logStep+"  --Fail");		
 		} else {
 			highlightElement(locator);
+			se = new Select(element);
+			se.selectByValue(data);
+			logStep(logStep +"  --Pass");
+	
+		}
+		
+	}
+	public void selectByValue(WebElement element, String data, String logStep)
+	{
+		
+		if (element == null) {
+			logStepFail(logStep+"  --Fail");		
+		} else {
+			highlightElement(element);
 			se = new Select(element);
 			se.selectByValue(data);
 			logStep(logStep +"  --Pass");
@@ -474,6 +519,21 @@ public class BaseMethod extends WebDriverFactory
 		}
 
 	}
+	public boolean isWebElementVisible(WebElement element, String logstep) {
+		try{
+			LogUtil.infoLog(BaseMethod.class,"Check Element visible: " +element.toString());
+			WebElement elm = waitForVisible(element);
+			//LogUtil.infoLog(KeywordUtil.class, logstep+" --Pass");
+			logStep(logstep+" --Pass");
+			return elm.isDisplayed();
+		}
+		catch (Exception e) {
+			//LogUtil.infoLog(KeywordUtil.class, logstep+" --Fail");
+			logStepFail(logstep+"  --Fail");
+			return false;
+		}
+
+	}
 	
 	public boolean isWebElementNotPresent1(By locator,String logstep) {
 		boolean status=getWebDriver().findElement(locator).isDisplayed();
@@ -524,6 +584,16 @@ public class BaseMethod extends WebDriverFactory
 		
 		public void highlightElement( By locator) {
 			WebElement element=getWebDriver().findElement(locator);
+		    for (int i = 0; i < 2; i++) {
+		        JavascriptExecutor js = (JavascriptExecutor) getWebDriver();
+		        js.executeScript("arguments[0].setAttribute('style', arguments[1]);",
+		                element, "color: yellow; border: 2px solid yellow;");
+		        js.executeScript("arguments[0].setAttribute('style', arguments[1]);",
+		                element, "");
+		    }
+		}
+		public void highlightElement( WebElement element) {
+			//WebElement element=getWebDriver().findElement(locator);
 		    for (int i = 0; i < 2; i++) {
 		        JavascriptExecutor js = (JavascriptExecutor) getWebDriver();
 		        js.executeScript("arguments[0].setAttribute('style', arguments[1]);",
@@ -609,6 +679,16 @@ public class BaseMethod extends WebDriverFactory
 			WebDriverWait wait = new WebDriverWait(getWebDriver(), DEFAULT_WAIT_SECONDS);
 			wait.ignoring(ElementNotVisibleException.class);
 			return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		}
+		
+		/**
+		 * @param locator
+		 * @return
+		 */
+		public WebElement waitForVisible(WebElement element) {
+			WebDriverWait wait = new WebDriverWait(getWebDriver(), DEFAULT_WAIT_SECONDS);
+			wait.ignoring(ElementNotVisibleException.class);
+			return wait.until(ExpectedConditions.visibilityOf(element));
 		}
 
 

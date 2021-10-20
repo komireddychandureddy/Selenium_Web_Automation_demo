@@ -61,7 +61,7 @@ public class WebDriverFactory extends BrowserFactory
 	@AfterMethod
 	public void afterMethod() 
 	{
-		getWebDriver().quit();	
+		//getWebDriver().close();	
 	}
 
 

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Smoke</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 10 21:59:50 IST 2021</td>
+<td>Started on:</td><td>Wed Oct 20 08:13:17 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>273 seconds (273054 ms)</td>
+<tr><td>Total time:</td><td>270 seconds (270357 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,82 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.smoke.tests.VerifySignup.test_16619()'><b>test_16619</b><br>Test class: com.smoke.tests.VerifySignup<br>Test method: Verify the Sign up<br>Parameters: {Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=6, ConfirmPassword=simple, Month=November, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=06-Nov-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}, public void com.smoke.tests.VerifySignup.test_16619(java.util.HashMap,java.lang.reflect.Method)</td>
+<td><div><pre>java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-EJBO9TN&apos;, ip: &apos;192.168.29.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: unknown
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace818591083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace818591083'><pre>java.lang.AssertionError: Cannot locate element with text: India
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-EJBO9TN&apos;, ip: &apos;192.168.29.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.smoke.tests.VerifySignup.test_16619(VerifySignup.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>33</td>
+<td>com.smoke.tests.VerifySignup@353d0772</td></tr>
+<tr>
+<td title='com.smoke.tests.Login.test_29507()'><b>test_29507</b><br>Test class: com.smoke.tests.Login<br>Test method: Verify the Sign up with Student<br>Parameters: {Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.Login.test_29507(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at com.smoke.tests.Login.test_29507(Login.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735544305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735544305'><pre>java.lang.AssertionError: Home page is not visiable expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.smoke.tests.Login.test_29507(Login.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>60</td>
+<td>com.smoke.tests.Login@149e0f5d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,15 +151,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.smoke.tests.VerifyLogin.test_29507()'><b>test_29507</b><br>Test class: com.smoke.tests.VerifyLogin<br>Test method: Verify the Sign up with Student<br>Parameters: {Child FirstName=Smith, Child Month=Nov, Email=test@test.com, Address=Hitech City, Telephone=919014676533, Child Gender=Male, Gender=Male, Month=Nov, Child Year=1999, DOB=06-Nov-1990, Family Name=test, Password=simple, InviteEmail=Test, FirstName=Chandu, ZipCode=500081, InviteMessage=Test Message by Automation, City=Hyderabad, Date=6, ConfirmPassword=simple, TimeZone=Asia/Kolkata, Child LastName=Jhon, Year=1990, Group Name=Group, State=Andhra Pradesh, Child Date=9, Country=India, LastName=Reddy}, public void com.smoke.tests.VerifyLogin.test_29507(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='com.smoke.tests.VerifyLogin.test_29508()'><b>test_29508</b><br>Test class: com.smoke.tests.VerifyLogin<br>Test method: Verify the Sign up with Student<br>Parameters: {Email=test@test.com, Password=simple, ConfirmPassword=simple}, public void com.smoke.tests.VerifyLogin.test_29508(java.util.HashMap,java.lang.reflect.Method)</td>
 <td></td>
-<td>263</td>
-<td>com.smoke.tests.VerifyLogin@1184ab05</td></tr>
+<td>264</td>
+<td>com.smoke.tests.VerifyLogin@10e41621</td></tr>
 <tr>
-<td title='com.smoke.tests.VerifySignup.test_16619()'><b>test_16619</b><br>Test class: com.smoke.tests.VerifySignup<br>Test method: Verify the Sign up<br>Parameters: {Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014676533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=6, ConfirmPassword=simple, Month=November, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=06-Nov-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}, public void com.smoke.tests.VerifySignup.test_16619(java.util.HashMap,java.lang.reflect.Method) throws java.lang.Exception</td>
+<td title='com.smoke.tests.SignUp.test_16618()'><b>test_16618</b><br>Test class: com.smoke.tests.SignUp<br>Test method: Verify the Sign up with newuser<br>Parameters: {Email=chandudemo@malinator.com, Address=Hitech City, Telephone=9014678533, FirstName=Chandu, ZipCode=500081, City=Hyderabad, Gender=Male, Hobbies=Cricket,Hockey, Date=1, ConfirmPassword=simple, Month=January, ProfilePath=\src\test\resources\Excel Files\testing.jpg, TimeZone=Asia/Kolkata, Year=1990, Skills=Android, DOB=01-Jan-1990, State=Andhra Pradesh, Country=India, LastName=Reddy, Password=simple}</td>
 <td></td>
-<td>28</td>
-<td>com.smoke.tests.VerifySignup@e056f20</td></tr>
+<td>23</td>
+<td>com.smoke.tests.SignUp@19bb07ed</td></tr>
 </table><p>
 </body>
 </html>

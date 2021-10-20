@@ -103,6 +103,9 @@ public class BrowserFactory extends InitMethod
 		default:
 			throw new Exception("Please Provide a Valid Browser");
 		}
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.get(url);
 		return driver;		
 	}
 }

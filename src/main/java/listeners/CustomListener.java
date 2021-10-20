@@ -6,6 +6,7 @@ import java.util.Date;
 
 import javax.mail.MessagingException;
 
+import org.codehaus.plexus.util.ExceptionUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,8 @@ import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.Test;
+
 import com.relevantcodes.extentreports.LogStatus;
 
 import controllers.BaseMethod;
@@ -112,6 +115,8 @@ public class CustomListener extends SendMail implements ITestListener, ISuiteLis
       //  System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");
         //Start operation for extentreports.
         ExtentTestManager.startTest(iTestResult.getMethod().getMethodName(),"");
+        String description=iTestResult.getMethod().getDescription();
+		ExtentTestManager.getTest().setDescription(description);
     }
 
     @Override
@@ -139,19 +144,18 @@ public class CustomListener extends SendMail implements ITestListener, ISuiteLis
 
         //Get driver from BaseTest and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
-        WebDriver webDriver = ((BaseMethod) testClass).getWebDriver();
-
+      //  WebDriver webDriver = ((BaseMethod) testClass).getWebDriver();
         //Take base64Screenshot screenshot.
-        String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)webDriver).
+        String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)getWebDriver()).
                 getScreenshotAs(OutputType.BASE64);
 
         //Extentreports log and screenshot operations for failed tests.
+        ErrorMsg=ExceptionUtils.getFullStackTrace(iTestResult.getThrowable());
         logStepFail(ErrorMsg);
         String path = null;
         try {
 			 path =takeScreenshot(getWebDriver(), getTestMethodName(iTestResult));
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
         ExtentTestManager.getTest().log(LogStatus.FAIL,"Test Failed : "+iTestResult.getMethod().getMethodName(),

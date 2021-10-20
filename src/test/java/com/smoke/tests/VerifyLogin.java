@@ -11,7 +11,11 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.smoke.Web.ApplicationFuncs;
+import com.smoke.Web.LoginPage;
+import com.smoke.Web.RegistrationPage;
+import com.smoke.Web.WelcomePage;
 
+import controllers.BaseMethod;
 import controllers.InitMethod;
 import listeners.CustomListener;
 import utils.ConfigReader;
@@ -22,7 +26,7 @@ public class VerifyLogin extends ApplicationFuncs
 {	
 
 	@Test(dataProvider="getExcelTestData",description ="Verify the Sign up with Student")
-	public void test_29507(HashMap<String, String> data,Method method) throws Exception
+	public void test_29508(HashMap<String, String> data,Method method) 
 	{
 		try {
 			String description=method.getAnnotation(Test.class).description();
